@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primaryColor:#00b7ff;
+        }
+        :root{
+            --secondaryColor:#6c757d;
+        }
+        button{
+            color: #fff;
+            outline: none;
+            border: none;
+            padding: 4px;
+        }
+        #primaryBtn{
+            background-color: var(--primaryColor);
+           
+        }
+        #secondaryBtn{
+            background-color: var(--secondaryColor);
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>Explain the purpose of using var() function in CSS.</h2>
+    <p>
+        The purpose of using the `var()` function can be summarized as follows: 
+    </p>
+    <ol>
+        <li><b>Setting up the box:</b> You first declare your variable and give it a value.</li>
+        <li><b>Using the box's contents:</b>Whenever you want to use that value in your styles, you call the `var()` function.</li>
+        <li><b>Easy updates:</b>If you decide to change that color later, you only need to update the value in one place, and it changes everywhere you've used it.</li>
+        <li><b>Fallback:</b>You can set a default value in case the box is empty, so your design doesn't break.</li>
+    </ol>
+
+    <div>
+        <button id="primaryBtn">Primary Button</button>
+        <button id="secondaryBtn">Secondary Button</button>
+    </div>
+</body>
+</html>
