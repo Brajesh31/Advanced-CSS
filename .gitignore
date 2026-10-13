@@ -1,0 +1,10 @@
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local static-server and temporary output
+*.log
+tmp/
+temp/
