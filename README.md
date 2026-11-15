@@ -36,8 +36,9 @@
 15. [🤝 Contributing](#-contributing)
 16. [🔐 Security and Privacy](#-security-and-privacy)
 17. [🗺️ Roadmap](#️-roadmap)
-18. [📖 Documentation](#-documentation)
-19. [📄 License](#-license)
+18. [🧩 Assignment Catalogue](#-assignment-catalogue)
+19. [📖 Documentation](#-documentation)
+20. [📄 License](#-license)
 
 ---
 
@@ -401,12 +402,19 @@ The roadmap tracks possible improvements such as richer task descriptions, acces
 
 See [ROADMAP.md](ROADMAP.md). Roadmap entries are proposals unless explicitly marked as completed.
 
+## 🧩 Assignment Catalogue
+
+For detailed task-by-task explanations and guided experiments, see [TASKS.md](TASKS.md).
+
 ## 📖 Documentation
 
 | Document | Description |
 |---|---|
 | [Installation](docs/installation.md) | Open the examples and start a local server |
 | [Architecture](docs/architecture.md) | Understand the static repository structure |
+| [CSS Technique Reference](docs/css-reference.md) | Review custom properties, 3D transforms, motion, and visibility |
+| [Accessibility](docs/accessibility.md) | Improve keyboard, contrast, image, and motion support |
+| [Testing](docs/testing.md) | Manual browser and screenshot review |
 | [Development](docs/development.md) | Modify and validate exercises |
 | [FAQ](docs/faq.md) | Common questions |
 | [Troubleshooting](docs/troubleshooting.md) | Diagnose common problems |
